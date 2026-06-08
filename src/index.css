@@ -1,0 +1,33 @@
+@theme {
+  --color-luxury-gold: #D4AF37;
+  --color-luxury-goldLight: #E6CA65;
+  --color-luxury-obsidian: #0A0A0A;
+  --color-luxury-stone: #1A1A1A;
+  --color-luxury-cream: #0F0F0F;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #FAFAFA;
+  color: #0F0F0F; 
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Luxury scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAFAFA;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 3px;
+}
